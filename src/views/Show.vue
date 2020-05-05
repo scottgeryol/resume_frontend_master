@@ -1,12 +1,6 @@
 <template>
   <div class="home">
-    <a href="/login">Login</a>
-    |
-    <a href="/logout">Logout</a>
-    |
-    <a href="/show">View Resume</a>
-    |
-    <a href="/update">Update Resume</a>
+    <div>{{ message }}</div>
   </div>
 </template>
 
@@ -19,7 +13,7 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      message: "Student Access",
+      message: "View your resume!",
     };
   },
   created: function() {},
