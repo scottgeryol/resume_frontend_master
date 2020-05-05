@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <h1>{{ message }}</h1>
-    <a href="/signup">Signup</a> or
-    <router-link to="/signup">Signup</router-link>
+    <a href="/login">Login</a>
+    |
+    <a href="/logout">Logout</a>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 export default {
   data: function() {
     return {
-      message: "Studen Access",
+      message: "Student Access",
     };
   },
   created: function() {},
