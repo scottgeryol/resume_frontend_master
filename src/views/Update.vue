@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="update">
     <h1>Update your resume:</h1>
     <h1>Experience</h1>
     <!-- <div v-for="resume in resumes"> -->
