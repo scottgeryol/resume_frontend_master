@@ -1,6 +1,11 @@
 <template>
-  <div class="home">
-    <div>{{ message }}</div>
+  <div class="show">
+    <div>
+      <h2>Student</h2>
+      <h2>Experience</h2>
+      <h2>Education</h2>
+      <h2>Projects</h2>
+    </div>
   </div>
 </template>
 
